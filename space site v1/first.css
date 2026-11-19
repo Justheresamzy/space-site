@@ -1,0 +1,145 @@
+.spacetitle {
+    display: flex;
+    letter-spacing: 80px;
+    color: white;
+    font-family: jetbrains mono;
+    font-weight: bolder;
+    font-size: 400px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin: 0%;
+   min-height: 100vh;
+   filter: drop-shadow(0 0 6px #e7e7e7)
+drop-shadow(0 0 10px #e7e7e7)
+   drop-shadow(0 0 200px #e7e7e7);
+   
+
+}
+
+.spacetitle:hover { 
+    transition: 1s;
+    filter: drop-shadow(0 0 6px #ffffff)
+   drop-shadow(0 0 20px #ffffff)
+   drop-shadow(0 0 100px #ffffff);
+   cursor: pointer;
+}
+
+.beforespacetitle {
+   
+        display: flex;
+    
+        
+      
+        color: white;
+        font-family: jetbrains mono;
+        font-weight: bolder;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        justify-content: center;
+        align-items: center;
+        color: #504f4f;
+        
+
+
+       
+    
+
+}
+
+.starbutton {
+    display: flex;
+    opacity: 1;
+    background-color: #e7e7e7;
+    width:100px ;
+    height: 57px;
+    margin-left:47.65% ;
+   background-color: #141414;
+   border: none;
+    border-radius: 40px;
+    
+}
+.planetsbutton {
+    display: flex;
+    opacity: 1;
+    background-color: #e7e7e7;
+    width:100px ;
+    height: 57px;
+    margin-left:47.65% ;
+   background-color: #141414;
+   border: none;
+    border-radius: 40px;
+    
+}
+
+.starbutton {
+    display: flex;
+    opacity: 1;
+    background-color: #e7e7e7;
+    width:100px ;
+    height: 57px;
+    margin-left:40% ;
+    
+   background-color: #141414;
+   border: none;
+    border-radius: 40px;
+    
+}
+
+
+* {
+    outline: 1px solid red;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    background-image:
+        /* Main vertical lines */
+        linear-gradient(to right, rgba(255,255,255,0.3) 1px, transparent 1px),
+
+        /* Main horizontal lines */
+        linear-gradient(to bottom, rgba(255,255,255,0.3) 1px, transparent 1px),
+
+        /* Half vertical lines */
+        linear-gradient(to right, rgba(255,255,255,0.12) 1px, transparent 1px),
+
+        /* Half horizontal lines */
+        linear-gradient(to bottom, rgba(255,255,255,0.12) 1px, transparent 1px);
+
+    background-size:
+        50px 50px,
+        50px 50px,
+        25px 25px,
+        25px 25px;
+}
+/* Centre vertical red line */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100vh;
+    background: red;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 10000;
+}
+
+/* Centre horizontal red line */
+body {
+    background-image:
+        linear-gradient(
+            transparent calc(50% - 1px),
+            red calc(50% - 1px),
+            red calc(50% + 1px),
+            transparent calc(50% + 1px)
+        );
+}
