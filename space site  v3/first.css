@@ -1,0 +1,427 @@
+.spacetitle {
+    display: flex;
+    letter-spacing: 80px;
+    color: white;
+    font-family: jetbrains mono;
+    font-weight: bolder;
+    font-size: 400px;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin: 0%;
+   min-height: 100vh;
+   filter: drop-shadow(0 0 2px #e7e7e7)
+drop-shadow(0 0 6px #e7e7e7)
+   drop-shadow(0 0 30px #e7e7e7);
+   
+
+}
+
+.spacetitle:hover { 
+    transition: 1s ease;
+    filter: drop-shadow(0 0 6px #ffffff)
+   drop-shadow(0 0 20px #ffffff)
+   drop-shadow(0 0 50px #ffffff);
+   cursor: pointer;
+}
+
+.beforespacetitle {
+   
+        display: flex;
+    
+        position: fixed;
+      
+        color: white;
+        font-family: jetbrains mono;
+        font-weight: bolder;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        justify-content: center;
+        align-items: center;
+        color: #504f4f;
+        
+
+
+       
+    
+
+}
+
+.beforespacetitle:hover {
+    transition: 1s ease;
+    filter: drop-shadow(0 0 6px #ffffff)
+   drop-shadow(0 0 20px #ffffff)
+   drop-shadow(0 0 50px #ffffff);
+
+}
+
+.firstbuttons {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+  
+    position: fixed;
+top: 80%;
+   left: 42.5%;
+   padding: auto;
+ 
+
+ 
+}
+.starbutton {
+filter: drop-shadow(0 0 6px #ffd322)
+    drop-shadow(0 0 20px #ff0606)
+       drop-shadow(0 0 5px #ff2222);
+    padding-top: 10px;
+    font-size: 30px;
+    display: grid;
+    opacity: 1;
+    width:70px ;
+    height: 57px;
+   background-color: #2D2D2D;
+   border: none;
+    border-radius: 40px;
+    
+    
+}
+.planetsbutton {
+    filter: drop-shadow(0 0 6px #fff265)
+    drop-shadow(0 0 20px #ff8800)
+       drop-shadow(0 0 5px #fd9300);
+    padding-top: 10px;
+    font-size: 30px;
+    display: grid;
+    opacity: 1;
+    width:70px ;
+    height: 57px;
+   background-color: #2D2D2D;
+   border: none;
+    border-radius: 40px;
+  
+   
+    
+    
+}
+.blackholebutton {
+    filter: drop-shadow(0 0 6px #00ffea)
+    drop-shadow(0 0 20px #000dff)
+       drop-shadow(0 0 3px #3c00ff);
+    padding-top: 10px;
+    font-size: 30px;
+    display: grid;
+    opacity: 1;
+    width:70px ;
+    height: 57px;
+   background-color: #2D2D2D;
+   border: none;
+    border-radius: 40px;
+    
+}
+
+
+
+.blackholebutton:hover {
+    transition: 1s ease;
+    filter: drop-shadow(0 0 6px #3fe2f7)
+    drop-shadow(0 0 20px #00ffe1)
+       drop-shadow(0 0 10px #4dfff3);
+       cursor: pointer;
+
+}
+
+.blackholebutton:active {
+    transition: 0.2s ease;
+    filter: drop-shadow(0 0 6px #00fff2)
+    drop-shadow(0 0 20px #2b00ff)
+       drop-shadow(0 0 5px #0800ff);
+
+}
+
+.planetsbutton:hover {
+    transition: 1s ease;
+    filter: drop-shadow(0 0 6px #ffbc40)
+    drop-shadow(0 0 20px #ffb835)
+       drop-shadow(0 0 10px #ffca1d);
+       cursor: pointer;
+       
+}
+
+.planetsbutton:active {
+    transition: 0.2s ease;
+    filter: drop-shadow(0 0 6px #b79453)
+    drop-shadow(0 0 20px #ff8800)
+       drop-shadow(0 0 5px #fd9300);
+       
+}
+
+.starbutton:hover {
+    transition: 1s filter ease;
+    filter: drop-shadow(0 0 6px #ffd322)
+    drop-shadow(0 0 20px #ffd322)
+       drop-shadow(0 0 10px #ffd322);
+       cursor: pointer;
+}
+
+
+.starbutton:active {
+    transition: 1s filter  ease;
+    filter: drop-shadow(0 0 6px #ffd322)
+    drop-shadow(0 0 20px #ff0606)
+       drop-shadow(0 0 5px #ffd622);
+}
+
+.particlea {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       top: 20%;
+       left: 5%;
+}
+
+.particleb {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 56%;
+       top: 10%;
+}
+
+.particlec {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 5px #ffffff);
+       position: fixed;
+       left: 36%;
+       top: 70%;
+}
+
+
+.particled {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 59%;
+       top: 80%;
+}
+
+
+.particlee {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 17%;
+       top: 80%;
+}
+
+.particlef {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 78%;
+       top: 93%;
+}
+
+
+.particleg {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 90%;
+       top: 24%;
+}
+
+.particleh {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 13%;
+       top: 9%;
+}
+
+.particlei {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 98%;
+       top: 80%;
+}
+
+.particlej {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 90%;
+       top: 43%;
+}
+
+.particlek {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left: 70%;
+       top: 70%;
+}
+
+.particlel {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:34%;
+       top: 13%;
+}
+
+
+.particlem {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:78%;
+       top: 12%;
+}
+
+.particlen {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:3%;
+       top: 90%;
+}
+
+
+.particleo {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:92%;
+       top: 64%;
+}
+
+.particlep {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:8%;
+       top: 45%;
+}
+
+.particleq {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:5%;
+       top: 67%;
+}
+
+.particler {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:43%;
+       top: 25%;
+}
+
+.particles {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 6px #ffffff)
+    drop-shadow(0 0 10px #ffffff)
+       drop-shadow(0 0 10px #ffffff);
+       position: fixed;
+       left:30%;
+       top: 90%;
+}
+
+
+
